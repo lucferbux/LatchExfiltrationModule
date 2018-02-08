@@ -11,7 +11,7 @@ class LatchExfiltrationReader(LatchExfiltration):
         #self.read_exfiltrated_message()
     
     def read_exfiltrated_byte(self):
-        """Get the exfiltrated byte of latch and converts it into its ascii representation
+        """Get the exfiltrated byte of latch and convert it into its ascii representation
         
         Returns:
             String -- Ascii representation of the byte
